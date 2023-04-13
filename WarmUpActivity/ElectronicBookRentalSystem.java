@@ -52,9 +52,9 @@ class Book {
 public class ElectronicBookRentalSystem {
     public static void main(String[] args) {
         Book[] books = {
-            new Book("System Analysis and Design", "Gary B. Shelly", 2007, 2),
-            new Book("Android Application", "Corinne Hoisington", 2012, 3),
-            new Book("Programming Concepts and Logic Formulation", "Rosauro E. Manuel", 2017, 4)
+            new Book("System Analysis and Design", "Gary B. Shelly", 2015, 2),
+            new Book("Android Application", "Corinne Hoisington", 2018, 3),
+            new Book("Programming Concepts and Logic Formulation", "Rosauro E. Manuel", 2020, 4)
         };
 
         Scanner scanner = new Scanner(System.in);
