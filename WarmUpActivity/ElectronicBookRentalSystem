@@ -15,12 +15,12 @@ class Book {
     private int year;
     private int copies;
 
-//    public Book(String title, String author, int year, int copies) {
-//        setTitle(title);
-//        setAuthor(author);
-//        setYear(year);
-//        setCopies(copies);
-//    }
+    public Book(String title, String author, int year, int copies) {
+        setTitle(title);
+        setAuthor(author);
+        setYear(year);
+        setCopies(copies);
+    }
 
     public String getTitle() {
         return title;
@@ -92,6 +92,13 @@ public class ElectronicBookRentalSystem {
                 if (!input.equalsIgnoreCase("Y")) {
                     continueRenting = false;
                 }
+            }
+            } catch (IndexOutOfBoundsException e) {
+                System.out.println("INDEX DOES NOT EXIST, Try Again!");
+                scanner.nextLine();
+            } catch (InputMismatchException e) {
+                System.out.println("INVALID INPUT");
+                scanner.nextLine();
             }
         }
         System.out.println("\nPROGRAM ENDS");
