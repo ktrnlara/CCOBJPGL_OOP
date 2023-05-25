@@ -8,11 +8,11 @@ public class Main {
         toyota.setSpeed(150);
         toyota.setTireType("Tubeless");
 
-        System.out.println("Toyota Vios details:");
-        System.out.println("Color: " + toyota.getColor());
-        System.out.println("Price: " + toyota.getPrice());
-        System.out.println("Speed: " + toyota.getSpeed());
-        System.out.println("Tire Type: " + toyota.getTireType());
+//        System.out.println("Toyota Vios details:");
+//        System.out.println("Color: " + toyota.getColor());
+//        System.out.println("Price: " + toyota.getPrice());
+//        System.out.println("Speed: " + toyota.getSpeed());
+//        System.out.println("Tire Type: " + toyota.getTireType());
 
         toyota.drive();
         toyota.stop();
@@ -23,11 +23,11 @@ public class Main {
         spyPlane.setSpeed(805);
         spyPlane.setWingspan(104.10);
 
-        System.out.println("\nU-2 Spy Plane details:");
-        System.out.println("Color: " + spyPlane.getColor());
-        System.out.println("Price: " + spyPlane.getPrice());
-        System.out.println("Speed: " + spyPlane.getSpeed());
-        System.out.println("Wingspan: " + spyPlane.getWingspan());
+//        System.out.println("\nU-2 Spy Plane details:");
+//        System.out.println("Color: " + spyPlane.getColor());
+//        System.out.println("Price: " + spyPlane.getPrice());
+//        System.out.println("Speed: " + spyPlane.getSpeed());
+//        System.out.println("Wingspan: " + spyPlane.getWingspan());
 
         spyPlane.fly();
         spyPlane.stop();
@@ -38,11 +38,11 @@ public class Main {
         yacht.setSpeed(24);
         yacht.setMainSailColor("Blue");
 
-        System.out.println("\nFandango Yacht details:");
-        System.out.println("Color: " + yacht.getColor());
-        System.out.println("Price: " + yacht.getPrice());
-        System.out.println("Speed: " + yacht.getSpeed());
-        System.out.println("Main Sail Color: " + yacht.getMainSailColor());
+//        System.out.println("\nFandango Yacht details:");
+//        System.out.println("Color: " + yacht.getColor());
+//        System.out.println("Price: " + yacht.getPrice());
+//        System.out.println("Speed: " + yacht.getSpeed());
+//        System.out.println("Main Sail Color: " + yacht.getMainSailColor());
 
         yacht.floatBoat();
         yacht.stop();
